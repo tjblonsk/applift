@@ -4,6 +4,7 @@ class GadgetsController < ApplicationController
   end
 
   def new
+    @gadget = Gadget.new
   end
 
   def create
@@ -17,4 +18,10 @@ class GadgetsController < ApplicationController
 
   def delete
   end
+
+
+  private
+    def gadget_params
+      params.require(:gadget).permit(:name, :user_id)
+    end
 end
