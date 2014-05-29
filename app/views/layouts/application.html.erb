@@ -8,10 +8,18 @@
 </head>
 <body>
 
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
+  <div class="main-container">
 
-<%= yield %>
+    <div class="top-nav">
+      <span><%= link_to "Home", gadgets_path %></span>
+      <span><%= link_to "New Gadget", new_gadget_path %></span>
+    </div>
 
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+
+    <%= yield %>
+
+  </div>
 </body>
 </html>

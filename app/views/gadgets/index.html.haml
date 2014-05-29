@@ -1,0 +1,7 @@
+%div.gadget-index
+
+  %h1 Your Gadgets!
+
+  %div.gadget-list
+    - @gadgets.each do |g|
+      = g.name

@@ -1,0 +1,20 @@
+.main-container {
+  height: 100%;
+  width: 100%;
+}
+
+.top-nav {
+  clear: both;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.gadget-index {
+  padding-top: 30px;
+}
+
+.home-main {
+  padding-top: 50px;
+}
