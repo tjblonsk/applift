@@ -21,6 +21,11 @@ module Applift
     # config.i18n.default_locale = :de
 
     config.generators do |g|
+        g.view_specs false
+        g.helper_specs false
+        g.helpers false
+        g.stylesheets false
+        g.javascripts false
         g.test_framework :rspec,
             fixtures: true,
             view_specs: false,
