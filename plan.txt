@@ -10,7 +10,13 @@ Devise for Authentication
 Paperclip for images
 
 Controllers
+  HomeController
+    Index
   GadgetsController
+    CRUD
+  UsersController
+    Devise
+  ImagesController
     CRUD
 
 Schema
